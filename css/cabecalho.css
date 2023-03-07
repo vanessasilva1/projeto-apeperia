@@ -1,5 +1,5 @@
 .cabecalho {
-    color: #FFF;
+    color: var(--branco);
 
     width: 100%;
 
@@ -9,10 +9,10 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: .75rem;
+    padding-top: .75rem; /*rem - Variável conferme o valor - font-size - da raiz(html)*/
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103D4A;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
     position: absolute;
 }
