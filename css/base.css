@@ -40,3 +40,10 @@
     border: 1px solid var(--branco);
     border-radius: 5px;
 }
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2); /*Limita o tamanho. Que o conteúdo fique sempre dentro de 940px*/
+        padding-right: calc((100% - 940px)/2);
+    }
+}
